@@ -3,3 +3,8 @@
 #include <cmath> // for fmod
 using namespace std;
 using namespace std::chrono;
+void RunCalculations(){
+    double result;
+    for(long long i = 0; i < 10000000000LL; i++){
+        result = 2.0;
+    }
