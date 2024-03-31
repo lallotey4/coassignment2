@@ -7,3 +7,8 @@ void RunCalculations(){
     int result;
     int additions = 1000000000;  
     int multiplications = 500000000;
+    int divisions = 200000000;
+    for (int i = 0; i < 10; ++i) {
+        for (int j = 0; j < additions / 10; ++j) {
+            result = 1 + 1;
+            }
