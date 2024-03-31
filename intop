@@ -3,3 +3,7 @@
 #include <cmath>
 using namespace std;
 using namespace std::chrono;
+void RunCalculations(){
+    int result;
+    int additions = 1000000000;  
+    int multiplications = 500000000;
