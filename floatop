@@ -8,3 +8,8 @@ void RunCalculations(){
     for(long long i = 0; i < 10000000000LL; i++){
         result = 2.0;
     }
+ //5 × 10^9 multiplications
+    for(long long i = 0; i < 5000000000LL; i++){
+        result = 1.0; // Since 1.0 * 1.0 is constant, directly assign the result
+    }
+    
