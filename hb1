@@ -30,3 +30,13 @@ int main() {
     auto start = high_resolution_clock::now();
     HardDriveBenchmark1(text);   //acc hard drive benchmarking
     auto stop = high_resolution_clock::now();
+    cout << "Function call completed." << endl;
+    auto duration = duration_cast<seconds>(stop - start);
+
+    int minutes = duration.count() / 60;
+    int seconds = duration.count() % 60;
+
+    cout << "Elapsed time: " << minutes << " minutes " << seconds << " seconds" << endl;
+
+    return 0;
+}
