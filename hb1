@@ -20,3 +20,10 @@ void HardDriveBenchmark1(char* txt) {
 
     file.close();
 }
+
+int main() {
+    // Prepare text buffer
+    char text[109];
+    for (int i = 0; i < 109; i++) {
+        text[i] = 'a';
+    }
