@@ -3,3 +3,12 @@
 #include <iostream>
 using namespace std;
 using namespace std::chrono;
+void MemoryBenchmark(){
+    int *nums = new int[arrsize];
+    int num, i, j;
+
+    for(i = 0; i < 5; i++){
+        for(j = 0; j < arrsize; j++){
+            num = *(nums + j);
+        }
+    }
