@@ -26,3 +26,7 @@ void RunCalculations(){
 }
 
 int main(){
+
+    auto start = high_resolution_clock::now();
+    RunCalculations();
+    auto stop = high_resolution_clock::now();
