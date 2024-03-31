@@ -21,3 +21,8 @@ void RunCalculations(){
     for (int i = 0; i < 2; ++i) { 
         for (int j = 0; j < divisions / 2; ++j) {
             result = 1 / 1;
+        }
+    }
+}
+
+int main(){
